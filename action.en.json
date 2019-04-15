@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "description": "Default Welcome Intent",
+      "name": "MAIN",
+      "fulfillment": {
+        "conversationName": "Marvel vs DC"
+      },
+      "intent": {
+        "name": "actions.intent.MAIN",
+        "trigger": {
+          "queryPatterns": [
+            "talk to Marvel vs DC"
+          ]
+        }
+      }
+    }
+  ],
+  "conversations": {
+    "<INSERT YOUR CONVERSATION NAME HERE>": {
+      "name": "Marvel vs DC",
+      "url": "https://us-central1-marvel-vs-dc-6ac34.cloudfunctions.net/myfunction"
+    }
+  },
+  "locale": "en"
+}
