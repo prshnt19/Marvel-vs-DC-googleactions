@@ -1,7 +1,7 @@
 {
   "actions": [
     {
-      "description": "Marvel vs DC Battle",
+      "description": "मार्वल बनाम डीसी बैटल",
       "name": "MAIN",
       "fulfillment": {
         "conversationName": "Marvel vs DC Battle"
@@ -10,7 +10,7 @@
         "name": "actions.intent.MAIN",
         "trigger": {
           "queryPatterns": [
-            "talk to Marvel versus DC Battle"
+            "मार्वल बनाम डीसी बैटल से बात करें"
           ]
         }
       }
@@ -19,8 +19,8 @@
   "conversations": {
     "Marvel vs DC Battle": {
       "name": "Marvel vs DC Battle",
-      "url": "https://us-central1-marvel-vs-dc-6ac34.cloudfunctions.net/myfunction"
+      "url": "https://us-central1-marvel-vs-dc-6ac34.cloudfunctions.net/myfunctionhindi"
     }
   },
-  "locale": "en"
+  "locale": "hi"
 }

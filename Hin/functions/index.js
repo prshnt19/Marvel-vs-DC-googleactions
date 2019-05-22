@@ -260,4 +260,4 @@ app.intent('actions.intent.TEXT', (conv, input) => {
 
 });
 
-exports.myfunction = functions.https.onRequest(app);
+exports.myfunctionhindi = functions.https.onRequest(app);
